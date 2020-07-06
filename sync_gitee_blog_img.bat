@@ -1,12 +1,11 @@
 @ echo off
 
-set targetDir = E:\project\web\person\BlogImg 
+set current_dir=E:\project\web\person\BlogImg  
+
+pushd %current_dir%  
 
 
 echo "start======================%date%%time%"   >> ./log/sync.log
-
-E:
-cd %targetDir%
 
 
 git pull  >> ./log/sync.log
@@ -22,6 +21,7 @@ git push  >> ./log/sync.log
 echo "end======================%date%%time%"    >> ./log/sync.log
 
 
+Pause
 
 
 
