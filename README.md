@@ -1,5 +1,5 @@
 # 主页
-<a href='http://quxuecx.com/' target="_blank" >http://quxuecx.com/</a>
+<a href="http://quxuecx.com/" target="_blank" >http://quxuecx.com/</a>
 
 
 # 联系我
