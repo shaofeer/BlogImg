@@ -3,23 +3,21 @@
 set targetDir = E:\project\web\person\BlogImg
 
 
-echo 
-
 echo "start======================%date%%time%" 
 
 E:
 cd %targetDir%
 
 
-git pull
+git pull  >> ./log/sync.log
 
 
 echo "sync success %date%%time%" >> ./log/sync.log
 
 
-git add ./*
-git commit -m "sync"
-git push
+git add ./*   >> ./log/sync.log
+git commit -m "sync"  >> ./log/sync.log
+git push  >> ./log/sync.log
 
 echo "end======================%date%%time%" 
 
