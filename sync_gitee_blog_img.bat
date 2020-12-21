@@ -1,6 +1,6 @@
 @ echo off
 
-set current_dir=E:\project\web\person\BlogImg  
+set current_dir=D:\project\person\BlogImg
 
 pushd %current_dir%  
 
