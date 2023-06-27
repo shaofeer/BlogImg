@@ -1,4 +1,6 @@
+export LANG="en_US.UTF-8"
 echo "start======================`date`"   >> ./log/sync.log
+
 
 
 git pull  >> ./log/sync.log

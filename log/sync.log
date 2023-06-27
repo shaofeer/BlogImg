@@ -6957,3 +6957,10 @@ sync success 2023年 06月 28日 星期三 00:17:25 CST
 start======================2023年 06月 28日 星期三 00:17:50 CST
 已经是最新的。
 sync success 2023年 06月 28日 星期三 00:17:51 CST
+[master f925bc4] sync
+ 2 files changed, 25 insertions(+)
+ create mode 100644 sync_gitee_blog_img.sh
+end======================2023年 06月 28日 星期三 00:18:05 CST
+start======================Wed Jun 28 12:19:17 AM CST 2023
+已经是最新的。
+sync success Wed Jun 28 12:19:17 AM CST 2023
